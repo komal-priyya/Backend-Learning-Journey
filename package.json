@@ -1,0 +1,19 @@
+{
+  "name": "backend-learning-journey",
+  "version": "1.0.0",
+  "description": "- Backend vs Frontend\r - Client and Server\r - Request and Response\r - Express Setup\r - Routes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
