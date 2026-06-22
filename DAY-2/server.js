@@ -42,5 +42,10 @@ app.put("/students", (req,res)=>{
 app.delete("/students", (req,res)=>{
     res.send("student deleted")
 
+
+})
+
+app.listen(5000,()=>{
+    console.log("server is running ")
 })
 
