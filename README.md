@@ -39,7 +39,9 @@ By the end of this journey, I aim to:
 * [x] Day 1 – Backend Basics, Request & Response, Express Routes
 * [x] Day 2 - HTTP methods and Postman testing
 * [x] Day-3 - Route Parameter & Qury Parameter
-* [x] DAY-4 - Middleware  
+* [x] DAY-4 - Middleware
+* [x] DAY-5 - Revision Day
+* [x] DAY-6 - Express Response object 
       
 
 ---
