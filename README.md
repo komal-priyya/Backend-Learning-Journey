@@ -41,7 +41,8 @@ By the end of this journey, I aim to:
 * [x] Day-3 - Route Parameter & Qury Parameter
 * [x] DAY-4 - Middleware
 * [x] DAY-5 - Revision Day
-* [x] DAY-6 - Express Response object 
+* [x] DAY-6 - Express Response object
+* [x] DAY-7 - Revision Day
       
 
 ---
