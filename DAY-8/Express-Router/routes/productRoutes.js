@@ -24,4 +24,4 @@ router.get("/",(req,res)=>{
 router.get("/details",(req,res)=>{
     res.send("Product Details");
 });
-module.exports= router;
+module.exports= router; 
