@@ -46,15 +46,40 @@ const getUser= async (req,res)=>{
             success: true,
             data: user
         });
-
 }catch(error){
 return res.status(500).json({
     success:false,
     message:error.message
 })
 }}
+const deleteUser = async (req,res)=>{
+    try {
+        const user= await User.findByIdAndDelete(req.params.id)
+
+
+        if(!user){
+            return res.status(400).json({
+                success:false,
+                message:" user not found"
+            })
+        }
+
+        return res.status(200).json({
+            success:true,
+            message:"user deleted successfully",
+            data:user
+        })
+    } catch (error) {
+        return res.status(400).json({
+            success:false,
+            message:error.message
+        })
+        
+    }
+}
 module.exports= {
     register,
     getAllUsers,
-    getUser
+    getUser,
+    deleteUser
 };
