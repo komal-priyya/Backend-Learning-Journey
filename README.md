@@ -45,7 +45,8 @@ By the end of this journey, I aim to:
 * [x] DAY-7 - Revision Day
 * [x] DAY-8 - Express Router
 * [x] DAY-9 - Request Body (req.body) & express.json()
-* [x] DAY-10 - MongoDb and Mongoose 
+* [x] DAY-10 - MongoDb and Mongoose
+* [x] DAY-11-12-13 - JWT,cookies,bcrypt 
       
 
 ---
